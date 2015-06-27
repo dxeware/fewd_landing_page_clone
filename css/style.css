@@ -442,12 +442,21 @@ div {
 }
 
 .top-navigation > .content {
-  width: 970px;
+  width: 940px;
   height: 70px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
-.top-navigation > .content > .logo {
-  margin-left: 14px;
+.top-navigation .logo {
   height: 70px;
 }
+
+.top-navigation .links {
+  float: right;
+}
+
+.top-navigation .links li {
+  display: inline-block;
+}
+
