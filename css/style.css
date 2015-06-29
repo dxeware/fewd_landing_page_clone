@@ -434,10 +434,11 @@ th {
 }
 
 /* Start of custom css */
-/* Temp during creation */
+/* Temp during creation
 body {
   background-color: LightGray;
 }
+*/
 
 div {
   border: 1px solid Chocolate;
@@ -559,3 +560,34 @@ div {
   font-weight: 400;
 }
 
+.social .content {
+  padding: none;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+hr {
+  margin-top: 7.875rem;
+}
+
+.social ul {
+  -webkit-padding-start: 0px;
+}
+.social .icons > li {
+  display:inline-block;
+  text-align: center;
+  border: 1px solid grey;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 0.5rem;
+
+}
+
+.social h4 {
+  font-weight: 100;
+}
+
+.social li > i {
+  margin-top: 0.75rem;
+}
